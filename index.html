@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Comments</title>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap' rel='stylesheet'>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+  <div class='comments'>
+
+    <form id='new-comment-form' class='comments__new-comment content-block'>
+      <h2 class='comments__title'>Оставьте новый комментарий</h2>
+      <div class='comments_split-block'>
+        <div class='comments__wrapper'>
+          <input type='text' name='user-name' placeholder='Введите имя' class='comments__input_name' />
+        </div>
+
+        <input type='date' name='comments-date' max='2012-12-02' class='comments__input_date' />
+      </div>
+      <div class='comments__wrapper'>
+        <textarea rows='5' name='comments-text' placeholder='Введите сообщение'
+          class='comments__input_message'></textarea>
+      </div>
+      <input name='submit' type='submit' class='comments__input_send-button' value='Опубликовать'>
+    </form>
+
+    <div class='comments__items'>
+
+    </div>
+  </div>
+
+  <script src='script.js'></script>
+</body>
+
+</html>
