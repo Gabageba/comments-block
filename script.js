@@ -105,8 +105,8 @@ const addComment = (name, date, text) => {
             <span class='comments__item_time'>${date}</span>
           </div>
           <div class='comments__icons'>
-            <img id='favourite' data-is-favourite='false' src='/assets/add-favourite.svg' height='20' alt='favourite'>
-            <img id='delete' src='/assets/delete.svg' height='20' alt='delete'>
+            <img id='favourite' data-is-favourite='false' src='assets/add-favourite.svg' height='20' alt='favourite'>
+            <img id='delete' src='assets/delete.svg' height='20' alt='delete'>
           </div>
         </div>
         <p class='comments__item_text'>${text}</p>
